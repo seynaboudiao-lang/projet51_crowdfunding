@@ -1,0 +1,24 @@
+# Environnement local / XAMPP
+*.log
+error_log
+/vendor/
+/node_modules/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs de code
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de configuration sensibles (si vous en créez une variante locale)
+config/config.local.php
+config/database.local.php
+
+# Sauvegardes de base de données exportées
+*.sql.bak
+/backups/
